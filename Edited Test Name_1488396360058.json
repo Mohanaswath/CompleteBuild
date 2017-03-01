@@ -1,0 +1,134 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "Edited Test Name",
+    "x-lastModified": "Feb 28, 2017 15:33PM PST",
+    "description": "Edited Test Description"
+  },
+  "paths": {
+    "/test": {
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response"
+          }
+        },
+        "parameters": [
+          {
+            "name": "dgd",
+            "in": "query",
+            "description": "dbhdh",
+            "required": false,
+            "type": "string",
+            "format": "",
+            "default": "fdh"
+          }
+        ]
+      },
+      "put": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response"
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/TestingRoutes": {
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "201": {
+            "description": "Success response"
+          },
+          "402": {
+            "description": "response tested succesfully",
+            "headers": {
+              "a": {
+                "description": "df",
+                "type": "string",
+                "default": "1"
+              }
+            },
+            "schema": {
+              "type": "string"
+            },
+            "examples": {
+              "application/json": "sdf"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "dfh",
+            "in": "query",
+            "description": "dfh",
+            "required": false,
+            "type": "string",
+            "format": "",
+            "default": "234"
+          }
+        ],
+        "description": "testing the descriptions",
+        "tags": [
+          "tags tested succesfully"
+        ]
+      }
+    },
+    "/TestingRoutes-Put1": {
+      "put": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response"
+          }
+        },
+        "parameters": [
+          {
+            "name": "21",
+            "in": "query",
+            "description": "sdg",
+            "required": false,
+            "type": "string",
+            "format": "",
+            "default": "s1"
+          }
+        ]
+      }
+    },
+    "/TestingRoutes-Post": {
+      "post": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response"
+          }
+        },
+        "parameters": [
+          {
+            "name": "sf",
+            "in": "query",
+            "description": "sdg",
+            "required": false,
+            "type": "string",
+            "format": "",
+            "default": "124"
+          }
+        ]
+      }
+    }
+  }
+}
